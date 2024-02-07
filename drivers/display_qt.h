@@ -26,8 +26,8 @@
  ***************************************************************************/
 
 #ifndef MXGUI_LIBRARY
-#error "This is header is private, it can be used only within mxgui."
-#error "If your code depends on a private header, it IS broken."
+//#error "This is header is private, it can be used only within mxgui."
+//#error "If your code depends on a private header, it IS broken."
 #endif //MXGUI_LIBRARY
 
 #ifndef DISPLAY_QT_H
@@ -35,7 +35,7 @@
 
 #if !defined(_MIOSIX) && !defined(_WINDOWS)
 
-#include <config/mxgui_settings.h>
+#include "config/mxgui_settings.h"
 #include "display.h"
 #include "point.h"
 #include "color.h"

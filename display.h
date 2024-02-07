@@ -180,7 +180,7 @@ protected:
      * may do nothing.
      * \param brt from 0 to 100
      */
-    virtual void doSetBrightness(int brt)=0;
+	virtual void doSetBrightness(int brt)=0;
 
     /**
      * \return a pair with the display height and width

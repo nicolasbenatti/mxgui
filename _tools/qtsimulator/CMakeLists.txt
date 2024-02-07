@@ -40,11 +40,7 @@ preprocess_png(IMG_OUT ${FOO_IMG})
 
 # List here your application files
 set(FOO_SRCS
-    ../../_examples/teapot/fps_counter.cpp
-    ../../_examples/teapot/bresenham_fsm.cpp
-    ../../_examples/teapot/triangle_fsm.cpp
-    ../../_examples/teapot/rendering_engine.cpp
-    ../../_examples/teapot/teapot.cpp)
+  ../../_examples/hello/hello_world.cpp)
 
 # These are the sources of the mxgui library and the simulator
 set(LIB_SRCS
