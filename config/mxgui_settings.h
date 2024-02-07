@@ -152,10 +152,11 @@ static const unsigned int SIMULATOR_BGCOLOR=0;
 #define MXGUI_FONT_DROID21
 #define MXGUI_FONT_MISCFIXED
 #define MXGUI_FONT_TAHOMA
+#define MXGUI_FONT_FIRAMONO
 #define MXGUI_ENABLE_BOLD_FONTS
 
 //Default font
-#define defaultFont droid11
+#define defaultFont firamono
 
 #endif //_MIOSIX
 
