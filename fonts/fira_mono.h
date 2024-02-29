@@ -6,8 +6,8 @@
 
 const bool firamonoIsAntialiased=true;
 const bool firamonoIsFixedWidth=false;
-const unsigned char firamonoStartChar=0;
-const unsigned char firamonoEndChar=8959;
+const char32_t firamonoStartChar=0;
+const char32_t firamonoEndChar=8959;
 const unsigned char firamonoHeight=19;
 const unsigned char firamonoDataSize=64;
 
