@@ -77,11 +77,11 @@ extern const Font droid21b;
 #endif //MXGUI_ENABLE_BOLD_FONTS
 #endif //MXGUI_FONT_DROID21
 
-#ifdef MXGUI_FONT_TAHOMA
-/// \hideinitializer
-/// Tahoma, a variable width font
-extern const Font tahoma;
-#endif //MXGUI_FONT_TAHOMA
+// #ifdef MXGUI_FONT_TAHOMA
+// /// \hideinitializer
+// /// Tahoma, a variable width font
+// extern const Font tahoma;
+// #endif //MXGUI_FONT_TAHOMA
 
 #ifdef MXGUI_FONT_FIRAMONO
 /// \hideinitializer
