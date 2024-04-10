@@ -8,12 +8,12 @@ const bool firamonoIsAntialiased=true;
 const bool firamonoIsFixedWidth=false;
 const unsigned char firamonoHeight=19;
 const unsigned char firamonoDataSize=64;
-const unsigned int firamonoNumGlyphs=97;
+const unsigned int firamonoNumGlyphs=96;
 const unsigned char firamonoNumBlocks=2;
 
 // The start of range i is blocks[2*i], its size is at blocks[2*i+1]
 const unsigned int firamonoBlocks[]{
- 0x20,0x60,
+ 0x20,0x5f,
  0xfffd,0x1
 };
 
@@ -30,8 +30,7 @@ const unsigned char firamonoWidth[]={
  7,7,7,7,7,7,7,7,
  7,7,7,7,7,7,7,7,
  7,7,7,7,7,7,7,7,
- 7,7,7,7,7,7,7,7,
- 7
+ 7,7,7,7,7,7,7,7
 };
 
 //The first byte of character i is firamonoData[firamonoOffset[i]]
@@ -47,8 +46,7 @@ const unsigned short firamonoOffset[]={
  451,458,465,472,479,486,493,500,
  507,514,521,528,535,542,549,556,
  563,570,577,584,591,598,605,612,
- 619,626,633,640,647,654,661,668,
- 675
+ 619,626,633,640,647,654,661,668
 };
 
 const unsigned long long firamonoData[]={
@@ -147,7 +145,6 @@ const unsigned long long firamonoData[]={
  0ull,0ull,0ull,3FFFFFC0ull,0ull,0ull,0ull, //U+7C ( | )
  0ull,0ull,C00000C0ull,7FF7FF40ull,1D0000ull,C0000ull,0ull, //U+7D ( } )
  0ull,180000ull,C0000ull,180000ull,300000ull,240000ull,40000ull, //U+7E ( ~ )
- 0ull,2AAAAAAAAAull,2000010002ull,2001920002ull,2000290002ull,2AAAAAAAAAull,0ull, //U+7F (  )
  0ull,2AAAAAAAAAull,2000010002ull,2001920002ull,2000290002ull,2AAAAAAAAAull,0ull //U+FFFD ( � )
 };
 
