@@ -31,7 +31,6 @@
 #include "fonts/droid11b.h"
 #include "fonts/droid21.h"
 #include "fonts/droid21b.h"
-#include "fonts/fira_mono.h"
 #include "fonts/miscfixed.h"
 #include "fonts/miscfixed_bold.h"
 
@@ -74,10 +73,5 @@ namespace mxgui {
 // const Font tahoma(tahomaStartChar,tahomaEndChar,tahomaHeight,tahomaDataSize,
 // 				  tahomaIsAntialiased,tahomaWidth,tahomaOffset,tahomaData);
 // #endif //MXGUI_FONT_TAHOMA
-
-#ifdef MXGUI_FONT_FIRAMONO
-	const Font firamono(firamonoNumBlocks,firamonoBlocks,firamonoHeight,firamonoDataSize,
-						firamonoIsAntialiased,firamonoWidth,firamonoOffset,firamonoData,firamonoNumGlyphs);
-#endif
 
 } // namespace mxgui

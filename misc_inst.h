@@ -82,12 +82,6 @@ extern const Font droid21b;
 // /// Tahoma, a variable width font
 // extern const Font tahoma;
 // #endif //MXGUI_FONT_TAHOMA
-
-#ifdef MXGUI_FONT_FIRAMONO
-/// \hideinitializer
-/// Fira Mono, a fixed width antialiased font
-extern const Font firamono;
-#endif //MXGUI_FONT_FIRAMONO
 	
 #ifdef MXGUI_COLOR_DEPTH_1_BIT_LINEAR
 const Color white(1);         ///< White color constant
